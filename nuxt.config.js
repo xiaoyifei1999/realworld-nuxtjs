@@ -1,5 +1,6 @@
 module.exports = {
   router: {
+    css: ['~/assets/main.css'],
     linkActiveClass: 'active',
     // 自定义路由
     extendRoutes (routes, resolve) {
